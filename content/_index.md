@@ -591,15 +591,15 @@ FEATURES. What you get with AstroWind. One of the most professional and comprehe
             <!-- Grid -->
               <div>
                 <label for="hs-firstname-contacts-1 name" class="sr-only form-label">Name</label>
-                <input type="text" name="name" id="name" class="py-3 px-4 block w-full border-neutral-200 dark:border-neutral-700 rounded-lg text-sm focus:border-primary-500 form-input" placeholder="Name" type="text">
+                <input type="text" name="name" id="name" class="py-3 px-4 block w-full border-neutral-200 bg-neutral-50 dark:border-neutral-700 rounded-lg text-sm focus:border-primary-500 form-input" placeholder="Name" type="text">
               </div>
             <div>
               <label for="hs-email-contacts-1 email" class="sr-only form-label">Email</label>
-              <input type="email" name="hs-email-contacts-1 email" id="hs-email-contacts-1 email" autocomplete="email" class="y-3 px-4 block w-full border-neutral-200 dark:border-neutral-700 rounded-lg text-sm focus:border-primary-500 form-input" placeholder="Email" type="email">
+              <input type="email" name="hs-email-contacts-1 email" id="hs-email-contacts-1 email" autocomplete="email" class="y-3 px-4 block w-full border-neutral-200 dark:border-neutral-700 rounded-lg text-sm  bg-neutral-50 focus:border-primary-500 form-input" placeholder="Email" type="email">
             </div>
             <div>
               <label for="hs-about-contacts-1 message" class="sr-only from-label">Message</label>
-              <textarea id="hs-about-contacts-1 message" name="hs-about-contacts-1 message" rows="4" class="y-3 px-4 block w-full border-neutral-200 dark:border-neutral-700 rounded-lg text-sm focus:border-primary-500 form-input" placeholder="Message goes here"></textarea>
+              <textarea id="hs-about-contacts-1 message" name="hs-about-contacts-1 message" rows="4" class="y-3 px-4 block w-full border-neutral-200 dark:border-neutral-700 rounded-lg text-sm focus:border-primary-500 form-input  bg-neutral-50" placeholder="Message goes here"></textarea>
             </div>
           </div>
           <!-- End Grid -->
