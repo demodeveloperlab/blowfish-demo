@@ -355,7 +355,7 @@ FEATURES. What you get with AstroWind. One of the most professional and comprehe
 </div>
   
 <div class="max-w-2xl mx-auto flex author">
-  <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4 shadow-2xl" width="236" height="231"
+  <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4 shadow-2xl" width="96" height="96"
     alt="" src="map.webp" />
   <div class="place-self-center">
     <div class="text-sm text-neutral-500 dark:text-neutral-300">
@@ -625,7 +625,7 @@ FEATURES. What you get with AstroWind. One of the most professional and comprehe
          <p class="mt-1 text-sm text-neutral-500 dark:text-neutral-300">
            Burning question. Write down. What do I really want? I might think about health, realtionships, money, work. I might think about values such as Love.
          </p>
-         <a class="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">
+         <a href="https://another.com" title="another" class="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
               example@site.com
             </a>
     </div>
@@ -639,7 +639,7 @@ FEATURES. What you get with AstroWind. One of the most professional and comprehe
          <p class="mt-1 text-sm text-neutral-500 dark:text-neutral-300">
            Burning question. Write down. What do I really want? I might think about health, realtionships, money, work. I might think about values such as Love.
          </p>
-         <a class="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">
+         <a href="https://question.com" title="question" class="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
               example@site.com
             </a>
     </div>
@@ -653,7 +653,7 @@ FEATURES. What you get with AstroWind. One of the most professional and comprehe
          <p class="mt-1 text-sm text-neutral-500 dark:text-neutral-300">
            Burning question. Write down. What do I really want? I might think about health, realtionships, money, work. I might think about values such as Love.
          </p>
-         <a class="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">
+         <a href="https://example.com" title="search" class="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
               example@site.com
             </a>
     </div>
