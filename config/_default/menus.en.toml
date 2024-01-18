@@ -58,18 +58,21 @@
 
 [[main]]
   identifier = "twitter"
+  aria-label = "twitter"
   pre = "x-twitter"
   url = "https://twitter.com/burufugu"
   weight = 200
 
 [[main]]
   identifier = "mastodon"
+  aria-labe = "mastodon"
   pre = "mastodon"
   url = "https://masto.ai/@blowfish"
   weight = 300
 
 [[main]]
   identifier = "github"
+  aria-label = "github"
   pre = "github"
   url = "https://github.com/nunocoracao/blowfish"
   weight = 400
