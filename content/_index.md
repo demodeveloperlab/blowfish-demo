@@ -26,7 +26,7 @@ description: ""
         </a>
         </div>
         <div class="mt-8">
-           <img class="rounded-full shadow-lx" width="1000" height="628" alt="" src="123.webp" />
+           <img class="rounded-full shadow-lx" width="1000" height="628" loading="lazy" alt="" src="123.webp" />
         </div>
       </div>
     </div>
@@ -185,7 +185,7 @@ FEATURES. What you get with AstroWind. One of the most professional and comprehe
 <div class="px-4 mx-auto">
   <div class="grid gap-6 row-gap-10 lg:grid-cols-2">
   <div class="relative">
-       <img class="rounded-xl shadow-2xl" width="442" height="560" alt="" src="direction.webp" />
+       <img class="rounded-xl shadow-2xl" width="442" height="560" loading="lazy" alt="" src="direction.webp" />
     </div>
     <div class="lg:py-6">
         <div class="flex">
@@ -355,7 +355,7 @@ FEATURES. What you get with AstroWind. One of the most professional and comprehe
 </div>
   
 <div class="max-w-2xl mx-auto flex author">
-  <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4 shadow-2xl" width="96" height="96"
+  <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4 shadow-2xl" width="96" height="96" loading="lazy"
     alt="" src="map.webp" />
   <div class="place-self-center">
     <div class="text-sm text-neutral-500 dark:text-neutral-300">
