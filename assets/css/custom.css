@@ -39,4 +39,14 @@
 .bg-primary-800 {
     background-color: rgb(30, 64, 175);
 }
+.text-primary-900 {
+    color: rgb(30, 58, 138);
+}
+.border-primary-900 {
+    color: rgb(30, 58, 138);
+}
+.dark .border-primary-200 {
+    color: rgb(191, 219, 254);
+}
+
     
