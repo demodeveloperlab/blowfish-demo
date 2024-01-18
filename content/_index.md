@@ -604,7 +604,7 @@ FEATURES. What you get with AstroWind. One of the most professional and comprehe
           </div>
           <!-- End Grid -->
           <div class="mt-4 grid">
-            <button type="submit" class="bg-transparent hover:text-primary-900 dark:text-primary-200 prose dark:prose-invert font-semibold hover:text-white py-2 px-4 border border-primary-900 dark:border-primary-200 hover:border-transparent rounded-full">Send inquiry</button>
+            <button id="contact" aria-label="Submit contact request" type="submit" class="bg-transparent hover:text-primary-900 dark:text-primary-200 prose dark:prose-invert font-semibold hover:text-white py-2 px-4 border border-primary-900 dark:border-primary-200 hover:border-transparent rounded-full">Send inquiry</button>
           </div>
           <div class="mt-3 text-center">
             <p class="text-sm text-gray-500">
@@ -662,19 +662,12 @@ FEATURES. What you get with AstroWind. One of the most professional and comprehe
     </div>
   </div>
 </div>
-<!-- End Contact Us -->
-        <!-- Github -->
-        <a target="_blank" class="text-4xl mr-2 text-neutral-700 dark:text-neutral-300" href="" title="" aria-label="">{{< icon "github" >}}</a>
-        <!-- Github -->
-        <a target="_blank" class="text-4xl mr-2 text-neutral-700 dark:text-neutral-300" href="" title="" aria-label="">{{< icon "twitter" >}}</a>
-        <!-- Github -->
-        <a target="_blank" class="text-4xl mr-2 text-neutral-700 dark:text-neutral-300" href="" title="" aria-label="">{{< icon "mastodon" >}}</a>
     </div>
   </div>
 </section>
 <!-- /Contact -->
 <!-- Stats -->
-<div class="relative w-screen max-w-[1600px] px-[30px]" style="left: calc(max(-50vw,-800px) + 50%);">
+<div class="relative w-screen max-w-[1600px] mt-20 px-[30px]" style="left: calc(max(-50vw,-800px) + 50%);">
   <section class="max-w-6xl mx-auto">
 <div class="mx-auto text-center mb-10 lg:mb-14">
 <p class="text-base text-primary-900 dark:text-primary-200 font-bold tracking-wide uppercase mb-3">Stats</p>
@@ -834,22 +827,22 @@ data: {
     <div class="flex flex-col border border-neutral-200 text-center rounded-xl py-8 px-8 dark:border-neutral-700 shadow-2xl">
       <p class="font-medium text-lg text-neutral-800 dark:text-neutral-200">Free</p>
       <span class="mt-7 font-bold text-5xl text-neutral-800 dark:text-neutral-200">Free</span>
-      <p class="mt-2 text-sm text-neutral-500">Forever free</p>
+      <p class="mt-2 text-sm">Forever free</p>
       <ul class="mt-6 space-y-2.5 text-sm">
         <li class="flex space-x-2">
-          <svg class="flex-shrink-0 mt-0.5 h-4 w-4 text-primary-500 dark:text-primary-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          <svg class="flex-shrink-0 mt-0.5 h-4 w-4 text-primary-900 dark:text-primary-200" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
           <span class="text-neutral-800 dark:text-neutral-400">
             1 user
           </span>
         </li>
         <li class="flex space-x-2">
-          <svg class="flex-shrink-0 mt-0.5 h-4 w-4 text-primary-500 dark:text-primary-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          <svg class="flex-shrink-0 mt-0.5 h-4 w-4 text-primary-900 dark:text-primary-200" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
           <span class="text-neutral-800 dark:text-neutral-400">
             Plan features
           </span>
         </li>
         <li class="flex space-x-2">
-          <svg class="flex-shrink-0 mt-0.5 h-4 w-4 text-primary-500 dark:text-primary-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          <svg class="flex-shrink-0 mt-0.5 h-4 w-4 text-primary-900 dark:text-primary-200" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
           <span class="text-neutral-800 dark:text-neutral-400">
             Product support
           </span>
@@ -861,29 +854,29 @@ data: {
     </div>
     <!-- End Card -->
     <!-- Card -->
-    <div class="flex flex-col border-2 border-primary-900 dark:border-primary-200 text-center rounded-xl py-8 px-8 shadow-2xl">
+    <div class="flex flex-col border-2 border-neutral-200 dark:border-neutral-700 text-center rounded-xl py-8 px-8 shadow-2xl">
       <p class="mb-3"><span class="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-lg text-xs uppercase font-semibold bg-primary-800 text-neutral-50">Most popular</span></p>
       <p class="font-medium text-lg text-neutral-800 dark:text-neutral-200">Startup</p>
       <span class="mt-5 font-bold text-5xl text-neutral-800 dark:text-neutral-200">
         <span class="font-bold text-2xl -me-2">$</span>
         39
       </span>
-      <p class="mt-2 text-sm text-neutral-500">All the basics for starting a new business</p>
+      <p class="mt-2 text-sm text-primary-900 dark:text-primary-200">All the basics for starting a new business</p>
       <ul class="mt-6 space-y-2.5 text-sm">
         <li class="flex space-x-2">
-          <svg class="flex-shrink-0 mt-0.5 h-4 w-4 text-primary-500 dark:text-primary-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          <svg class="flex-shrink-0 mt-0.5 h-4 w-4 text-primary-900 dark:text-primary-200" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
           <span class="text-neutral-800 dark:text-neutral-400">
             2 users
           </span>
         </li>
         <li class="flex space-x-2">
-          <svg class="flex-shrink-0 mt-0.5 h-4 w-4 text-primary-500 dark:text-primary-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          <svg class="flex-shrink-0 mt-0.5 h-4 w-4 text-primary-900 dark:text-primary-200" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
           <span class="text-neutral-800 dark:text-neutral-400">
             Plan features
           </span>
         </li>
         <li class="flex space-x-2">
-          <svg class="flex-shrink-0 mt-0.5 h-4 w-4 text-primary-500 dark:text-primary-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          <svg class="flex-shrink-0 mt-0.5 h-4 w-4 text-primary-900 dark:text-primary-200" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
           <span class="text-neutral-800 dark:text-neutral-400">
             Product support
           </span>
@@ -901,22 +894,22 @@ data: {
         <span class="font-bold text-2xl -me-2">$</span>
         89
       </span>
-      <p class="mt-2 text-sm text-neutral-500">Everything you need for a growing business</p>
+      <p class="mt-2 text-sm">Everything you need for a growing business</p>
       <ul class="mt-6 space-y-2.5 text-sm">
         <li class="flex space-x-2">
-          <svg class="flex-shrink-0 mt-0.5 h-4 w-4 text-primary-500 dark:text-primary-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          <svg class="flex-shrink-0 mt-0.5 h-4 w-4 text-primary-900 dark:text-primary-200" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
           <span class="text-neutral-800 dark:text-neutral-400">
             5 users
           </span>
         </li>
         <li class="flex space-x-2">
-          <svg class="flex-shrink-0 mt-0.5 h-4 w-4 text-primary-500 dark:text-primary-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          <svg class="flex-shrink-0 mt-0.5 h-4 w-4 text-primary-900 dark:text-primary-200" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
           <span class="text-neutral-800 dark:text-neutral-400">
             Plan features
           </span>
         </li>
         <li class="flex space-x-2">
-          <svg class="flex-shrink-0 mt-0.5 h-4 w-4 text-primary-500 dark:text-primary-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          <svg class="flex-shrink-0 mt-0.5 h-4 w-4 text-primary-900 dark:text-primary-200" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
           <span class="text-neutral-800 dark:text-neutral-400">
             Product support
           </span>
@@ -934,22 +927,22 @@ data: {
         <span class="font-bold text-2xl -me-2">$</span>
         149
       </span>
-      <p class="mt-2 text-sm text-neutral-500">Advanced features for scaling your business</p>
+      <p class="mt-2 text-sm">Advanced features for scaling your business</p>
       <ul class="mt-6 space-y-2.5 text-sm">
         <li class="flex space-x-2">
-          <svg class="flex-shrink-0 mt-0.5 h-4 w-4 text-primary-500 dark:text-primary-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          <svg class="flex-shrink-0 mt-0.5 h-4 w-4 text-primary-900 dark:text-primary-200" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
           <span class="text-neutral-800 dark:text-neutral-400">
             10 users
           </span>
         </li>
         <li class="flex space-x-2">
-          <svg class="flex-shrink-0 mt-0.5 h-4 w-4 text-primary-500 dark:text-primary-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          <svg class="flex-shrink-0 mt-0.5 h-4 w-4 text-primary-900 dark:text-primary-200" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
           <span class="text-neutral-800 dark:text-neutral-400">
             Plan features
           </span>
         </li>
         <li class="flex space-x-2">
-          <svg class="flex-shrink-0 mt-0.5 h-4 w-4 text-primary-500 dark:text-primary-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          <svg class="flex-shrink-0 mt-0.5 h-4 w-4 text-primary-900 dark:text-primary-200" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
           <span class="text-neutral-800 dark:text-neutral-400">
             Product support
           </span>
